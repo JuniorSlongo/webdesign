@@ -1,0 +1,41 @@
+@charset "UTF-8";
+body {
+    font: 62.5%/1 "Myriad Pro", Frutiger, "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+form{
+    font-size: 1.4em;
+    width: 30em;
+}
+fieldset {
+    margin: 1em 0; 
+    padding: 1em;
+    border : 1px solid #ccc;
+}
+legend {
+    font-weight: bold;
+}
+label {
+    display: block;
+}
+label .necessario{
+    font-size: 0.75em;
+    color: #760000;
+}
+input {
+    width: 200px;
+}
+input.radio {
+    float: left;
+    margin-right: 1em;
+}
+input.radio, input.submit{
+    width: auto;
+}
+
+input:focus, textarea:focus {
+    background: #ffc;
+}
+textarea {
+    width: 300px;
+    height: 100px;
+}
