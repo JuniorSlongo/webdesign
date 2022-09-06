@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Press_Start_2P;
+    src: url(fontes/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
+body{
+    background-color: darkgoldenrod;
+    
+}
+h1{
+    font-family: Press_Start_2P;
+    color:black;
+    text-align: center;
+    padding-top:03px;
+    background-color: purple;
+    border: 5px solid black;
+    font-size: 70px;
+    
+    
+}
+
+ul{
+    
+    text-align: left;
+    font-size: 25px;
+    font-family: Press_Start_2P;
+
+}
+h2{
+    padding-top: 50px;
+}
+
+
+
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+a{
+    color: purple;
+    padding-top: 05px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+   
+
+    padding-bottom: 60px;
+}
