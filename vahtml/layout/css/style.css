@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.container{
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+    
+    padding: 0 10px;
+}
+#nav{
+    background-color: crimson;
+    padding: 10px 0;
+}
+#header{
+    width: 100%;
+    background-color: darkgoldenrod ;
+}
+#header #hgroup{
+    float: left;
+    padding: 10px 0;
+}
+img#banner{
+    float: right;
+    widows: 500px;
+}
+.clearfix{
+    overflow: auto;
+}
+#nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 0 5px;
+    margin: 0 5px;
+}
+#menu li{
+    float: left;
+}
+.right{
+    float: right;
+}
+#menu li a,
+.right{
+    text-decoration: none;
+    color: darkgreen;
+}
+
