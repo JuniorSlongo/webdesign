@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha TO-DO List</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <h3 id="DarkModetext">Modo Noturno está desligado</h3>
+        <button onclick="darkMode(), darkModeButton()">Modo Noturno</button>
+        <button onclick="lightMode(), lightModeButton()">Modo Claro</button>
+   
+    </div>    
+    <div class="wrapper">
+        <div class="to-do__box">
+            <form class="to-do__list">
+                <div class="to-do__label-area">
+                    <label for="to-do" id="toDoLabel" class="to-do__label">
+                            Minha TO-DO List
+                    </label>
+                </div>
+                <div class="to-do__input-area">
+                    <textarea type="text" name="to-do" id="toDoInput" class="to-do__input" placeholder="Escreva sua tarefa"></textarea>
+                </div>
+                
+                <button  type="submit" class="button-add"> 
+                    ADICIONAR 
+                </button>
+            </form>
+        </div>
+
+        <div  class="select-all__area"> 
+            <button type="button" class="button-gray all-done" >Concluir todos</button>
+            <button type="button" class="button-gray remove-all">Deletar tarefas</button>
+
+        </div>
+
+      
+        <div  class="to-do__box add-itens container" >
+        </div>
+    </div>
+    
+    <script src="script/script.js"></script>
+</body>
+</html>
